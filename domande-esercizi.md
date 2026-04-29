@@ -3,17 +3,17 @@
 - Qual è la differenza tra una query scritta direttamente nel codice e una query parametrizzata?
 ```text
 
-```
+```la query diretta inserisce i dati testuali direttamente nella stringa sql esponendo il database a errori di sintassi e attacchi hacker, mentre la query parametrizzata separa la struttura del comando dai dati reali garantendo massima sicurezza e corretta gestione dei caratteri speciali
 
 - Qual è il vantaggio di avere funzioni di supporto come esegui_select() ed esegui_dml()?
 ```text
 
-```
+```queste funzioni permettono di centralizzare la gestione della connessione e degli errori, evitando di ripetere codice identico per ogni operazione
 
 - In che senso i tre file non sono alternative equivalenti, ma evoluzioni progressive dello stesso codice?
 ```text
 
-```
+```perchè tutti e 3 si connettono al database però ognuno fa una cosa diverse,il primo verifica se esiste la tabella clienti e gli altri modifica la tabella
 
 
 ## Esercizi
